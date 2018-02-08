@@ -3,10 +3,10 @@
 class Grub < Formula
   desc "GNU GRUB bootloader"
   homepage "https://www.gnu.org/software/grub/"
-  url "ftp://ftp.gnu.org/gnu/grub//grub-2.00.tar.xz"
+  url "ftp://ftp.gnu.org/gnu/grub/grub-2.02.tar.xz"
   sha256 ""
   head "git://git.savannah.gnu.org/grub.git", :using => :git
-  version "2.00"
+  version "2.02"
 
   # targets ##################################################################
   option "with-x86_64-pc-elf", "Build for the x86_64-pc-elf target"
