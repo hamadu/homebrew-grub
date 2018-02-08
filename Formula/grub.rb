@@ -20,7 +20,7 @@ class Grub < Formula
   depends_on "xorriso"
 
   # build dependencies #######################################################
-  depends_on "hawkw/grub/objconv" => :build
+  depends_on "hamadu/grub/objconv" => :build
   depends_on "binutils" => :build
   depends_on "autoconf" => :build
   depends_on "automake" => :build
